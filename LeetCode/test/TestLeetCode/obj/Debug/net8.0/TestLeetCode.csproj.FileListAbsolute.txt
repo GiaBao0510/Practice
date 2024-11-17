@@ -1,0 +1,15 @@
+D:\HocTap\LeetCode\test\TestLeetCode\bin\Debug\net8.0\TestLeetCode.exe
+D:\HocTap\LeetCode\test\TestLeetCode\bin\Debug\net8.0\TestLeetCode.deps.json
+D:\HocTap\LeetCode\test\TestLeetCode\bin\Debug\net8.0\TestLeetCode.runtimeconfig.json
+D:\HocTap\LeetCode\test\TestLeetCode\bin\Debug\net8.0\TestLeetCode.dll
+D:\HocTap\LeetCode\test\TestLeetCode\bin\Debug\net8.0\TestLeetCode.pdb
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\TestLeetCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\TestLeetCode.AssemblyInfoInputs.cache
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\TestLeetCode.AssemblyInfo.cs
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\TestLeetCode.csproj.CoreCompileInputs.cache
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\TestLeetCode.sourcelink.json
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\TestLeetCode.dll
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\refint\TestLeetCode.dll
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\TestLeetCode.pdb
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\TestLeetCode.genruntimeconfig.cache
+D:\HocTap\LeetCode\test\TestLeetCode\obj\Debug\net8.0\ref\TestLeetCode.dll

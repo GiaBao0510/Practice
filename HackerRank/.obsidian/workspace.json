@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "f4601e4b0a14ae3a",
+    "id": "1138e7c2c1a19537",
     "type": "split",
     "children": [
       {
-        "id": "9cb2e0d060d82ad4",
+        "id": "595b5481fb289841",
         "type": "tabs",
         "children": [
           {
-            "id": "e8f29a76c3d82bb9",
+            "id": "0c75f0cd283bbf6f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "aVeryBigSum.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "aVeryBigSum"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8c942a1d899b9ee8",
+    "id": "399ca9476438d8bc",
     "type": "split",
     "children": [
       {
-        "id": "16e1f24dae77c345",
+        "id": "a074021db5ab9db6",
         "type": "tabs",
         "children": [
           {
-            "id": "b24ee50d48510049",
+            "id": "ad1b00766e755a7e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +47,7 @@
             }
           },
           {
-            "id": "0e20c9e517ed7d8d",
+            "id": "c79e9256da91b663",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +64,7 @@
             }
           },
           {
-            "id": "682e59fe7b1f4552",
+            "id": "8578151d8423ca3a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,23 +77,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "e9be9bedb47d3ed4",
+    "id": "76bc82d808d3fab3",
     "type": "split",
     "children": [
       {
-        "id": "dff9d921c6bc7cdb",
+        "id": "c42e9cf1384b88dd",
         "type": "tabs",
         "children": [
           {
-            "id": "6aa1a6c01efa0f32",
+            "id": "5be9d4642c14c803",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LongestSubarrayOf1'sAfterDeletingOneElement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,25 +102,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LongestSubarrayOf1'sAfterDeletingOneElement"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "388bee6955e14d1a",
+            "id": "99e38f42e37be3ef",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LongestSubarrayOf1'sAfterDeletingOneElement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from LongestSubarrayOf1'sAfterDeletingOneElement"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "e2b4f766b752b9ba",
+            "id": "11b244e8cac7ce08",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,15 +132,13 @@
             }
           },
           {
-            "id": "d9b06989d5e0697e",
+            "id": "9bf3841f63b98446",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LongestSubarrayOf1'sAfterDeletingOneElement.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of LongestSubarrayOf1'sAfterDeletingOneElement"
+              "title": "Outline"
             }
           }
         ]
@@ -158,45 +158,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8f29a76c3d82bb9",
+  "active": "0c75f0cd283bbf6f",
   "lastOpenFiles": [
-    "UniqueNumberOfOccurrences.md",
-    "EqualRowAndColumnPairs.md",
-    "DetermineIfTwoStringsAreClose.md",
-    "LongestSubarrayOf1'sAfterDeletingOneElement.md",
-    "howtofight.png",
-    "RemovingStarsFromAString.md",
-    "FindTheDifferenceOfTwoArrays.md",
-    "FindPivotIndex.md",
-    "FindTheHighestAltitude.md",
-    "MaxConsecutiveOnes_III.md",
-    "MaximumNumberOfVowelsInASubstringOfGivenLength/README.md",
-    "MaximumAverageSubarray_1/README.md",
-    "MaxNumberOfK-SumPairs/README.md",
-    "MaximumAverageSubarray_1/solution.cs",
-    "MaximumAverageSubarray_1",
-    "README.md",
-    "ReverseVowelsOfAString/README.md",
-    "ContainerWithMostWater/README.md",
-    "IsSubsequence/solution.cs",
-    "IsSubsequence/README.md",
-    "MoveZeroes/README.md",
-    "ProductOfArrayExceptSelf/README.md",
-    "ProductOfArrayExceptSelf/solution.js",
-    "ProductOfArrayExceptSelf",
-    "ContainsDuplicate/problems.md",
-    "ContainsDuplicate/README.md",
-    "IncreasingTripletSubsequence/README.md",
-    "BestTimeToBuyAndSellStock/README.md",
-    "TwoSum/README.md",
-    "ReverseWordsInAString/README.md",
-    "CanPlaceFlowers/README.md",
-    "tieuDe.css",
-    "samdakviralhit.jpg",
-    "samdak _ viralhit.jpg",
-    "samdak _ viral hit.jpg",
-    "Ảnh chụp màn hình 2024-07-07 093546.png",
-    "Viral-Hit-Image.webp",
-    "Viral-Hit-Image.webp.crdownload"
+    "aVeryBigSum.md",
+    "solveMeFirst.md",
+    "simpleArraySum.md",
+    "compareTriplets.md"
   ]
 }
