@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9cb2e0d060d82ad4",
+        "id": "d849fdb70ac7664f",
         "type": "tabs",
         "children": [
           {
-            "id": "e8f29a76c3d82bb9",
+            "id": "03c4573d93ae65ad",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -158,8 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8f29a76c3d82bb9",
+  "active": "03c4573d93ae65ad",
   "lastOpenFiles": [
+    "HackerRank/plusMinus.md",
+    "HackerRank/diagonalDifference.md",
     "UniqueNumberOfOccurrences.md",
     "EqualRowAndColumnPairs.md",
     "DetermineIfTwoStringsAreClose.md",
@@ -190,7 +192,6 @@
     "BestTimeToBuyAndSellStock/README.md",
     "TwoSum/README.md",
     "ReverseWordsInAString/README.md",
-    "CanPlaceFlowers/README.md",
     "tieuDe.css",
     "samdakviralhit.jpg",
     "samdak _ viralhit.jpg",
