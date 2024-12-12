@@ -3,23 +3,35 @@ using System;
 using System.Collections.Generic;
 public class Solution {
 
-    public static int diagonalDifference(List<List<int>> arr)
-    {
-        int n = arr.Count;
-        int primaryDiagonalSum = 0, 
-            secondaryDiagonalSum = 0;
-        for(int i = 0; i< n ;i++){
-            primaryDiagonalSum += arr[i][i];
-            secondaryDiagonalSum += arr[i][n- 1 - i];
+    public static void Merge(int[] nums1, int m, int[] nums2, int n) {
+        int last = m+n - 1;             //Lấy vị trí cuối trong mảng đầu để đặt
+        int i = m-1, j= n-1;
+
+        //Lặp với điều kiện dừng khi cả 1 trong 2 là 0
+        while(i >= 0 && j >=0){
+            if(nums1[i] > nums2[j]){
+                nums1[last] = nums1[i];
+                last--;
+                i--;
+            }else{
+                nums1[last] = nums2[j];
+                last--;
+                j--;
+            }
         }
-        return Math.Abs(primaryDiagonalSum - secondaryDiagonalSum);
+
+        //Nếu còn phần tử nào trong nums2, đưa vào mảng đầu
+        while(j >=0){
+            nums1[last] = nums2[j];
+            last--;
+            j--;
+        }
+
+
+        Console.WriteLine("{0}", string.Join(",", nums1));
     }
 
     static void Main(string[] args) {
-        diagonalDifference(new List<List<int>>{
-            new List<int>{11, 2, 4},
-            new List<int>{4, 5, 6},
-            new List<int>{10, 8, -12}
-        });
+        Merge(new int[]{1,2,4,7,0,0,0,0,0}, 4, new int[]{1,3,5,8,9}, 5);
     }
 }

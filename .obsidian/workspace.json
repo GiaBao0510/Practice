@@ -11,10 +11,14 @@
             "id": "03c4573d93ae65ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LeetCode/Merge Sorted Array.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Merge Sorted Array"
             }
           }
         ]
@@ -160,6 +164,8 @@
   },
   "active": "03c4573d93ae65ad",
   "lastOpenFiles": [
+    "LeetCode/206. Reverse Linked List.md",
+    "LeetCode/Merge Sorted Array.md",
     "HackerRank/plusMinus.md",
     "HackerRank/diagonalDifference.md",
     "UniqueNumberOfOccurrences.md",
@@ -190,8 +196,6 @@
     "ContainsDuplicate/README.md",
     "IncreasingTripletSubsequence/README.md",
     "BestTimeToBuyAndSellStock/README.md",
-    "TwoSum/README.md",
-    "ReverseWordsInAString/README.md",
     "tieuDe.css",
     "samdakviralhit.jpg",
     "samdak _ viralhit.jpg",
