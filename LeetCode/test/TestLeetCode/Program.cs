@@ -3,35 +3,18 @@ using System;
 using System.Collections.Generic;
 public class Solution {
 
-    public static void Merge(int[] nums1, int m, int[] nums2, int n) {
-        int last = m+n - 1;             //Lấy vị trí cuối trong mảng đầu để đặt
-        int i = m-1, j= n-1;
-
-        //Lặp với điều kiện dừng khi cả 1 trong 2 là 0
-        while(i >= 0 && j >=0){
-            if(nums1[i] > nums2[j]){
-                nums1[last] = nums1[i];
-                last--;
-                i--;
-            }else{
-                nums1[last] = nums2[j];
-                last--;
-                j--;
-            }
+    public static int RemoveElement(int[] nums, int val) {
+        int k=0;
+        for(int i=0; i< nums.Length; i++){
+            if(nums[i] != val){
+                nums[k] = nums[i];  //Đưa phần tử khác val vào vị trí k
+                k++;
+            } 
         }
-
-        //Nếu còn phần tử nào trong nums2, đưa vào mảng đầu
-        while(j >=0){
-            nums1[last] = nums2[j];
-            last--;
-            j--;
-        }
-
-
-        Console.WriteLine("{0}", string.Join(",", nums1));
+        return k;
     }
 
     static void Main(string[] args) {
-        Merge(new int[]{1,2,4,7,0,0,0,0,0}, 4, new int[]{1,3,5,8,9}, 5);
+        Console.WriteLine(RemoveElement(new int[]{0,1,2,2,3,0,4,2}, 2));
     }
 }
