@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackerRank/birthdayCakeCandles.md",
+                "file": "LeetCode/Majority Element.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "birthdayCakeCandles"
+              "title": "Majority Element"
             }
           }
         ]
@@ -165,8 +165,9 @@
   },
   "active": "41a7fdc552d4275e",
   "lastOpenFiles": [
-    "LeetCode/Remove Duplicates from Sorted Array.md",
     "HackerRank/birthdayCakeCandles.md",
+    "LeetCode/Majority Element.md",
+    "LeetCode/Remove Duplicates from Sorted Array.md",
     "LeetCode/Remove Element.md",
     "HackerRank/miniMaxSum.md",
     "HackerRank/staircase.md",
@@ -194,7 +195,6 @@
     "ContainerWithMostWater/README.md",
     "IsSubsequence/solution.cs",
     "IsSubsequence/README.md",
-    "MoveZeroes/README.md",
     "ProductOfArrayExceptSelf/solution.js",
     "ProductOfArrayExceptSelf",
     "tieuDe.css",
