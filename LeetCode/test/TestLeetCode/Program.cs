@@ -3,43 +3,44 @@ using System;
 using System.Collections.Generic;
 public class Solution {
 
-    public static void Rotate(int[] nums, int k){
-        if(nums == null ||nums.Length == 0 || k < 0) return;
-
-        //Normalize k if it's larger than array length (k > nums.Length)
-        k %= nums.Length;
-        if(k == 0) return;
+    public static bool CanJump(int[] nums) {
 
         /*
-            Example: nums = [1,2,3,4,5,6,7], k = 3
-            Output: [5,6,7,1,2,3,4]
-            --------------------------------
-            1. Reverse entire array: [7,6,5,4,3,2,1]        (0, nums.Length-1)
-            2. Reverse first k elements: [5,6,7,4,3,2,1]    (0, k-1)
-            3. Reverse remaining elements: [5,6,7,1,2,3,4]  (k, nums.Length-1)
+            Example: A[3,2,1,0,4]
+            Intinal: flag = A.Length - 1 = 4
+
+            -- repeat from last index to first index --
+            Repeat 0:
+                - index = 3, A[index] = 0
+                - A[index] + index = 3; Flag = 4
+            Repeat 1:
+            - index = 2, A[index] = 1
+            - A[index] + index = 3; Flag = 3
+            Repeat 2:
+            - index = 1, A[index] = 2
+            - A[index] + index = 3; Flag = 2
+            Repeat 3:
+            - index = 0, A[index] = 3
+            - A[index] + index = 3; Flag = 0
+            
+            So return False. Because it can't reach the end of the array
         */
-        //Step 1: Reverse entire array (0, nums.Length-1)
-        Reverse(nums, 0, nums.Length-1);
 
-        //Step 2: Reverse first k elements (0, k-1)
-        Reverse(nums, 0, k-1);
-        
-        //Step 3: Reverse remaining elements (k, nums.Length-1)
-        Reverse(nums, k, nums.Length-1);
-    }
+        int finalIndex = nums.Length - 1;       //Flag, if it reaches the beginning of the array then true
 
-    public static void Reverse(int[] nums, int start, int end){
-        while(start < end){
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            start++;
-            end--;
+        //Iterate from the end of the array
+        for(int index = nums.Length - 2; index >= 0; index --){
+            if(nums[index] + index >= finalIndex){  //Check if the current index can reach the final index
+                finalIndex = index;                 //If it can, then update the final index
+            }
         }
+
+        return finalIndex == 0; //Check has reached the first index
+
     }
 
     static void Main(string[] args) {
         //Console.WriteLine(RomanToInt("MCDLXXVI"));
-        Rotate(new int[]{1,2,3,4,5,6,7}, 3);
+        Console.WriteLine(CanJump(new int[]{5,4,0,2,0,1,0,1,0}));
     }
 }
