@@ -3,44 +3,25 @@ using System;
 using System.Collections.Generic;
 public class Solution {
 
-    public static bool CanJump(int[] nums) {
+    public static int SearchInsert(int[] nums, int target) {
+        
+        // If array is empty, return 0
+        if (nums == null || nums.Length == 0) return 0;
 
-        /*
-            Example: A[3,2,1,0,4]
-            Intinal: flag = A.Length - 1 = 4
+        int L = 0, R = nums.Length - 1;
 
-            -- repeat from last index to first index --
-            Repeat 0:
-                - index = 3, A[index] = 0
-                - A[index] + index = 3; Flag = 4
-            Repeat 1:
-            - index = 2, A[index] = 1
-            - A[index] + index = 3; Flag = 3
-            Repeat 2:
-            - index = 1, A[index] = 2
-            - A[index] + index = 3; Flag = 2
-            Repeat 3:
-            - index = 0, A[index] = 3
-            - A[index] + index = 3; Flag = 0
-            
-            So return False. Because it can't reach the end of the array
-        */
-
-        int finalIndex = nums.Length - 1;       //Flag, if it reaches the beginning of the array then true
-
-        //Iterate from the end of the array
-        for(int index = nums.Length - 2; index >= 0; index --){
-            if(nums[index] + index >= finalIndex){  //Check if the current index can reach the final index
-                finalIndex = index;                 //If it can, then update the final index
-            }
+        //iterative steps to fin the result. O(log n)
+        while(L <= R){
+            int mid = L + (R-L)/2;              // calculate mid point
+            if(nums[mid]  == target) return mid;       // if mid point is target, return mid
+            else if(nums[mid] < target) L = mid+ 1;   // if mid point is less than target, move left pointer to mid + 1
+            else R = mid -1;                    // if mid point is greater than target, move right pointer to mid - 1
         }
-
-        return finalIndex == 0; //Check has reached the first index
-
+        return L; // return the position where target can be inserted to maintain sorted array
     }
 
     static void Main(string[] args) {
         //Console.WriteLine(RomanToInt("MCDLXXVI"));
-        Console.WriteLine(CanJump(new int[]{5,4,0,2,0,1,0,1,0}));
+        Console.WriteLine(SearchInsert(new int[]{1,3,5,6,7,10,11}, 9));
     }
 }

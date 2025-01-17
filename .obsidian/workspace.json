@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/Jump Game.md",
+                "file": "LeetCode/Search Insert Position.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jump Game"
+              "title": "Search Insert Position"
             }
           }
         ]
@@ -164,8 +164,10 @@
   },
   "active": "89858700fdc3b467",
   "lastOpenFiles": [
-    "LeetCode/Rotate Array.md",
+    "LeetCode/Binary Search.md",
+    "LeetCode/Search Insert Position.md",
     "LeetCode/Jump Game.md",
+    "LeetCode/Rotate Array.md",
     "LeetCode/Roman to Integer.md",
     "LeetCode/Majority Element.md",
     "HackerRank/birthdayCakeCandles.md",
@@ -189,10 +191,8 @@
     "MaxConsecutiveOnes_III.md",
     "MaximumNumberOfVowelsInASubstringOfGivenLength/README.md",
     "MaximumAverageSubarray_1/README.md",
-    "MaxNumberOfK-SumPairs/README.md",
     "MaximumAverageSubarray_1/solution.cs",
     "MaximumAverageSubarray_1",
-    "README.md",
     "IsSubsequence/solution.cs",
     "ProductOfArrayExceptSelf/solution.js",
     "ProductOfArrayExceptSelf",
