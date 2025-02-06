@@ -5,27 +5,43 @@ public class Solution {
 
 
 
-    public static char Test(char[] letters , char target) {
-        int targetValue = Convert.ToInt32(target);
-        char charTarget = letters[0];
-        
+    public int[] TwoSum(int[] numbers, int target) {
 
-        for(int i = 0; i < letters.Length; i++){
-            if(Convert.ToInt32(letters[i]) > targetValue){
-                charTarget = letters[i];
-                break;
+        // Edge cases check
+        if (numbers == null || numbers.Length < 2) 
+            return new int[] { -1, -1 };
+        
+        // Diction
+        Dictionary<int, int> seen = new Dictionary<int, int>();
+
+        // iterate over each element in the array
+        for(int i = 0; i < numbers.Length; i++ ){
+
+            //Check if the computed value is contained in the dictionary
+            int implemented = target - numbers[i];
+
+            // If the computed value is in the dictionary, return the indices of the two numbers.
+            if(seen.ContainsKey(implemented)){
+                return new int[]{ seen[implemented] + 1 ,i+1};
+            }
+
+            // If not, add the current number and its index to the dictionary.
+            else{
+                seen[numbers[i]] = i;
             } 
         }
 
-        return charTarget;
+        // If no solution is found, return [-1,-1]
+        return new int[]{-1,-1};
     }
 
     static void Main(string[] args) {
-        
-        char[] arr = { 'c','f','j'};
 
-       
-        Console.WriteLine("\nSearch 1: {0}", String.Join(", ", Test(arr,'c')));
+         Solution s = new Solution();
+         int[] numbers = {1,3,5,9,18,22};
+         int target = 23;
+         int[] result = s.TwoSum(numbers, target);
+         Console.WriteLine("The indices of the two numbers that add up to the target are: " + result[0] + " and " + result[1]);
         
     }
 }

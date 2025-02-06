@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/744. Find Smallest Letter Greater Than Target.md",
+                "file": "LeetCode/167. Two Sum II - Input Array Is Sorted.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "744. Find Smallest Letter Greater Than Target"
+              "title": "167. Two Sum II - Input Array Is Sorted"
             }
           }
         ]
@@ -164,8 +164,10 @@
   },
   "active": "89858700fdc3b467",
   "lastOpenFiles": [
-    "LeetCode/34. Find First and Last Position of Element in Sorted Array.md",
+    "LeetCode/1351. Count Negative Numbers in a Sorted Matrix.md",
+    "LeetCode/167. Two Sum II - Input Array Is Sorted.md",
     "LeetCode/744. Find Smallest Letter Greater Than Target.md",
+    "LeetCode/34. Find First and Last Position of Element in Sorted Array.md",
     "LeetCode/274. H-Index.md",
     "LeetCode/Search Insert Position.md",
     "LeetCode/Binary Search.md",
@@ -189,8 +191,6 @@
     "howtofight.png",
     "RemovingStarsFromAString.md",
     "FindTheDifferenceOfTwoArrays.md",
-    "FindPivotIndex.md",
-    "FindTheHighestAltitude.md",
     "MaximumAverageSubarray_1/solution.cs",
     "MaximumAverageSubarray_1",
     "IsSubsequence/solution.cs",
