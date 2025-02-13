@@ -5,43 +5,33 @@ public class Solution {
 
 
 
-    public int[] TwoSum(int[] numbers, int target) {
+    public static List<int> gradingStudents(List<int> grades)
+    {
+        // if array empty
+        if(grades.Count == 0 || grades == null) return grades;
 
-        // Edge cases check
-        if (numbers == null || numbers.Length < 2) 
-            return new int[] { -1, -1 };
-        
-        // Diction
-        Dictionary<int, int> seen = new Dictionary<int, int>();
-
-        // iterate over each element in the array
-        for(int i = 0; i < numbers.Length; i++ ){
-
-            //Check if the computed value is contained in the dictionary
-            int implemented = target - numbers[i];
-
-            // If the computed value is in the dictionary, return the indices of the two numbers.
-            if(seen.ContainsKey(implemented)){
-                return new int[]{ seen[implemented] + 1 ,i+1};
+        //Array traversal
+        for(int i = 0; i < grades.Count; i++){
+            
+            // Calculate next multiple of 5
+            int nextMultipleOf5 = ((grades[i] + 4)/5) * 5;
+           
+            // Check if grade is greater than 38 and difference between next multiple of 5 and grade is less than 3
+            if(grades[i] >= 38 && nextMultipleOf5 - grades[i] < 3){
+                grades[i] = nextMultipleOf5;
             }
-
-            // If not, add the current number and its index to the dictionary.
-            else{
-                seen[numbers[i]] = i;
-            } 
         }
 
-        // If no solution is found, return [-1,-1]
-        return new int[]{-1,-1};
+        return grades;
     }
 
     static void Main(string[] args) {
 
-         Solution s = new Solution();
-         int[] numbers = {1,3,5,9,18,22};
-         int target = 23;
-         int[] result = s.TwoSum(numbers, target);
-         Console.WriteLine("The indices of the two numbers that add up to the target are: " + result[0] + " and " + result[1]);
+        List<int> grades = new List<int>(){73, 67, 38, 33};
+        List<int> result = gradingStudents(grades);
+        foreach(int grade in result){
+            Console.WriteLine(grade);
+        }
         
     }
 }
