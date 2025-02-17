@@ -4,34 +4,36 @@ using System.Collections.Generic;
 public class Solution {
 
 
+    public static int NaiveSearch(string target, string text){
+        
+        //Get the length of the text and the target
+        int n = text.Length;
+        int m = target.Length;
 
-    public static List<int> gradingStudents(List<int> grades)
-    {
-        // if array empty
-        if(grades.Count == 0 || grades == null) return grades;
-
-        //Array traversal
-        for(int i = 0; i < grades.Count; i++){
+        //Loop through the text
+        for(int i = 0; i < n; i++){
             
-            // Calculate next multiple of 5
-            int nextMultipleOf5 = ((grades[i] + 4)/5) * 5;
-           
-            // Check if grade is greater than 38 and difference between next multiple of 5 and grade is less than 3
-            if(grades[i] >= 38 && nextMultipleOf5 - grades[i] < 3){
-                grades[i] = nextMultipleOf5;
+            // compare each character from the substring in the text
+            int j;
+            for(j = 0; j < m; j++){
+
+                //If the characters do not match, break
+                if(text[i + j] != target[j])
+                    break;
             }
+
+            //If the inner loop completed, it means the substring was found
+            if(j == m)
+                return i;
         }
 
-        return grades;
+        return -1;  //If the substring was not found
     }
 
-    static void Main(string[] args) {
 
-        List<int> grades = new List<int>(){73, 67, 38, 33};
-        List<int> result = gradingStudents(grades);
-        foreach(int grade in result){
-            Console.WriteLine(grade);
-        }
-        
+    static void Main(string[] args) {
+        string text = "AABAACAADAAAECCBAA";
+        string target = "CCMK";
+        Console.WriteLine(NaiveSearch(target, text));
     }
 }
