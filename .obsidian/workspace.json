@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackerRank/countApplesAndOranges.md",
+                "file": "LeetCode/Find the Index of the First Occurrence in a String.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "countApplesAndOranges"
+              "title": "Find the Index of the First Occurrence in a String"
             }
           }
         ]
@@ -164,8 +164,11 @@
   },
   "active": "89858700fdc3b467",
   "lastOpenFiles": [
-    "HackerRank/gradingStudents.md",
+    "LeetCode/LongestCommonPrefix.md",
+    "LeetCode/Find the Index of the First Occurrence in a String.md",
+    "LeetCode/Palindrome Number.md",
     "HackerRank/countApplesAndOranges.md",
+    "HackerRank/gradingStudents.md",
     "HackerRank/timeConversion.md",
     "LeetCode/167. Two Sum II - Input Array Is Sorted.md",
     "LeetCode/1351. Count Negative Numbers in a Sorted Matrix.md",
@@ -187,9 +190,6 @@
     "LeetCode/206. Reverse Linked List.md",
     "HackerRank/plusMinus.md",
     "HackerRank/diagonalDifference.md",
-    "UniqueNumberOfOccurrences.md",
-    "EqualRowAndColumnPairs.md",
-    "DetermineIfTwoStringsAreClose.md",
     "howtofight.png",
     "MaximumAverageSubarray_1/solution.cs",
     "MaximumAverageSubarray_1",
