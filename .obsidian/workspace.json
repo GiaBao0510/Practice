@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc3332281837d747",
+        "id": "150aba196be7cf79",
         "type": "tabs",
         "children": [
           {
-            "id": "89858700fdc3b467",
+            "id": "be9ef9f6d6b0b405",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/Find the Index of the First Occurrence in a String.md",
+                "file": "LeetCode/SQL_50/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Find the Index of the First Occurrence in a String"
+              "title": "Untitled"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "right": {
     "id": "e9be9bedb47d3ed4",
@@ -162,10 +163,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89858700fdc3b467",
+  "active": "be9ef9f6d6b0b405",
   "lastOpenFiles": [
-    "LeetCode/LongestCommonPrefix.md",
+    "LeetCode/66. Plus One.md",
+    "LeetCode/SQL_50/Untitled.md",
+    "LeetCode/SQL_50/1148. Article Views I.md",
+    "LeetCode/709. To Lower Case.md",
+    "LeetCode/SQL_50/595. Big Countries.md",
+    "LeetCode/SQL_50/584. Find Customer Referee.md",
+    "LeetCode/SQL_50/Recyclable and Low Fat Products.md",
     "LeetCode/Find the Index of the First Occurrence in a String.md",
+    "LeetCode/SQL_50",
+    "LeetCode/LongestCommonPrefix.md",
     "LeetCode/Palindrome Number.md",
     "HackerRank/countApplesAndOranges.md",
     "HackerRank/gradingStudents.md",
@@ -183,13 +192,6 @@
     "LeetCode/Majority Element.md",
     "HackerRank/birthdayCakeCandles.md",
     "LeetCode/Remove Duplicates from Sorted Array.md",
-    "LeetCode/Remove Element.md",
-    "HackerRank/miniMaxSum.md",
-    "HackerRank/staircase.md",
-    "LeetCode/Merge Sorted Array.md",
-    "LeetCode/206. Reverse Linked List.md",
-    "HackerRank/plusMinus.md",
-    "HackerRank/diagonalDifference.md",
     "howtofight.png",
     "MaximumAverageSubarray_1/solution.cs",
     "MaximumAverageSubarray_1",
