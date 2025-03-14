@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "150aba196be7cf79",
+        "id": "cc212aa61d02f78e",
         "type": "tabs",
         "children": [
           {
-            "id": "be9ef9f6d6b0b405",
+            "id": "64885213c96b8a7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/SQL_50/Untitled.md",
+                "file": "LeetCode/1491. Average Salary Excluding the Minimum and Maximum Salary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "1491. Average Salary Excluding the Minimum and Maximum Salary"
             }
           }
         ]
@@ -163,10 +163,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be9ef9f6d6b0b405",
+  "active": "64885213c96b8a7c",
   "lastOpenFiles": [
+    "LeetCode/657. Robot Return to Origin.md",
+    "LeetCode/1491. Average Salary Excluding the Minimum and Maximum Salary.md",
+    "LeetCode/SQL_50/197. Rising Temperature.md",
+    "LeetCode/SQL_50/577. Employee Bonus.md",
+    "LeetCode/682. Baseball Game.md",
+    "LeetCode/58. Length of Last Word.md",
+    "LeetCode/896. Monotonic Array.md",
+    "LeetCode/50. Pow(x, n).md",
+    "LeetCode/SQL_50/1581. Customer Who Visited but Did Not Make Any Transactions.md",
+    "LeetCode/SQL_50/1068. Product Sales Analysis I.md",
+    "LeetCode/1822. Sign of the Product of an Array.md",
+    "LeetCode/SQL_50/1378. Replace Employee ID With The Unique Identifier.md",
+    "LeetCode/242. Valid Anagram.md",
+    "LeetCode/SQL_50/1683. Invalid Tweets.md",
     "LeetCode/66. Plus One.md",
-    "LeetCode/SQL_50/Untitled.md",
     "LeetCode/SQL_50/1148. Article Views I.md",
     "LeetCode/709. To Lower Case.md",
     "LeetCode/SQL_50/595. Big Countries.md",
@@ -179,19 +192,6 @@
     "HackerRank/countApplesAndOranges.md",
     "HackerRank/gradingStudents.md",
     "HackerRank/timeConversion.md",
-    "LeetCode/167. Two Sum II - Input Array Is Sorted.md",
-    "LeetCode/1351. Count Negative Numbers in a Sorted Matrix.md",
-    "LeetCode/744. Find Smallest Letter Greater Than Target.md",
-    "LeetCode/34. Find First and Last Position of Element in Sorted Array.md",
-    "LeetCode/274. H-Index.md",
-    "LeetCode/Search Insert Position.md",
-    "LeetCode/Binary Search.md",
-    "LeetCode/Jump Game.md",
-    "LeetCode/Rotate Array.md",
-    "LeetCode/Roman to Integer.md",
-    "LeetCode/Majority Element.md",
-    "HackerRank/birthdayCakeCandles.md",
-    "LeetCode/Remove Duplicates from Sorted Array.md",
     "howtofight.png",
     "MaximumAverageSubarray_1/solution.cs",
     "MaximumAverageSubarray_1",
