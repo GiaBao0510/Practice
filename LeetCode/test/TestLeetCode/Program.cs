@@ -1,50 +1,30 @@
 ﻿using System.Collections;
 using System;
 using System.Collections.Generic;
+using MySql.Data.MySqlClient;
+
+
 public class Solution {
 
-
-    public static bool IsRobotBounded(string instructions){
+    public static void Test(int[][] image){
         
-        if(instructions.Length == 0 || instructions == null)
-            return false;
+        int n = image.Length;   //Vì đây là ma trận vuông
         
-        int count = 0;
-        int x = 0, y = 0,
-            Measure  = 0;
-        
-        while(count <= instructions.Length * 4){
-            foreach(char i in instructions){
-                if(Measure == 0 && i == 'L')  
-                    Measure = 270;
-                else if(Measure > 0 && i == 'L')
-                    Measure -= 90;
-                else if( x == 0 && i == 'R')
-                    Measure += 90;
-                else if(Measure > 0 &&  Measure <= 180 && i == 'R')
-                    Measure+= 90;
-                else if(Measure > 180 && i == 'R')
-                    Measure = 0;
-                else{
-                    switch(Measure){
-                        case 0: y++; break;
-                        case 90: x++; break;
-                        case 180: y--; break;
-                        case 270: x--; break;
-                    }
-                    
-                    if(x == 0 && y == 0) 
-                        return true;
-                }
-                //Console.WriteLine(">> Duyet: "+i+" ,X = "+x);
-            }
-            count++;
-        }
-        return false;
     }
-    
+
+   
     public static void Main(string[] args)
     {
-        Console.WriteLine(">> KQ: "+IsRobotBounded("GGLLGG"));
+       
+        int[][] image = new int[4][];
+        image[0] = new int[]{1, 2, 3, 4};
+        image[1] = new int[]{5, 6, 7 ,8};
+        image[2] = new int[]{9, 10 ,11 , 12};
+        image[3] = new int[]{13, 14, 15, 16};
+
+        Test(image);
+
+        //Console.WriteLine("Hello, World!");
+
     }
 }

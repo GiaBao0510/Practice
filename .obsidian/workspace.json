@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cc212aa61d02f78e",
+        "id": "eb7152d035183350",
         "type": "tabs",
         "children": [
           {
-            "id": "64885213c96b8a7c",
+            "id": "5f74ff73174e688c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/1491. Average Salary Excluding the Minimum and Maximum Salary.md",
+                "file": "LeetCode/73. Set Matrix Zeroes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1491. Average Salary Excluding the Minimum and Maximum Salary"
+              "title": "73. Set Matrix Zeroes"
             }
           }
         ]
@@ -163,10 +163,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64885213c96b8a7c",
+  "active": "5f74ff73174e688c",
   "lastOpenFiles": [
-    "LeetCode/657. Robot Return to Origin.md",
+    "LeetCode/383. Ransom Note.md",
+    "LeetCode/73. Set Matrix Zeroes.md",
+    "LeetCode/441. Arranging Coins.md",
+    "LeetCode/happy number.md",
+    "LeetCode/125. Valid Palindrome.md",
+    "LeetCode/1572. Matrix Diagonal Sum.md",
+    "LeetCode/20. Valid Parentheses.md",
+    "LeetCode/1672. Richest Customer Wealth.md",
     "LeetCode/1491. Average Salary Excluding the Minimum and Maximum Salary.md",
+    "LeetCode/657. Robot Return to Origin.md",
     "LeetCode/SQL_50/197. Rising Temperature.md",
     "LeetCode/SQL_50/577. Employee Bonus.md",
     "LeetCode/682. Baseball Game.md",
@@ -183,15 +191,7 @@
     "LeetCode/SQL_50/1148. Article Views I.md",
     "LeetCode/709. To Lower Case.md",
     "LeetCode/SQL_50/595. Big Countries.md",
-    "LeetCode/SQL_50/584. Find Customer Referee.md",
-    "LeetCode/SQL_50/Recyclable and Low Fat Products.md",
-    "LeetCode/Find the Index of the First Occurrence in a String.md",
     "LeetCode/SQL_50",
-    "LeetCode/LongestCommonPrefix.md",
-    "LeetCode/Palindrome Number.md",
-    "HackerRank/countApplesAndOranges.md",
-    "HackerRank/gradingStudents.md",
-    "HackerRank/timeConversion.md",
     "howtofight.png",
     "MaximumAverageSubarray_1/solution.cs",
     "MaximumAverageSubarray_1",
